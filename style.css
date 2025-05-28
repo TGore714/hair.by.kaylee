@@ -15,7 +15,7 @@ body {
 .header {
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(255, 94, 77, 0.8), rgba(255, 123, 99, 0.8)), url('https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/463237482_543402468269639_7311181988621493007_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oLBptDQnH40Q7kNvgElwxrV&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Ae1rUn5K3g1z9o1Qs8cyIaO&oh=00_AYDWRyOo2P-fTg_VlDXIJC7l7guG4Vf9Aj21_VeWMm_beQ&oe=673B3040');
+    background-image: linear-gradient(to right bottom, rgba(255, 94, 77, 0.8), rgba(255, 123, 99, 0.8)), url('https://scontent.fcps4-1.fna.fbcdn.net/v/t39.30808-6/489744420_122149018580571125_3281768040808721378_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Bfu61EHD1bMQ7kNvwFiqkUh&_nc_oc=Adnps_2sDQ1SWlACY2t9CK0sVenIE_l6o4c_lcSMZbDnvN6qK8d6-u8WI_-ESk74wgofY4wsEchO9bVPRguppN0P&_nc_zt=23&_nc_ht=scontent.fcps4-1.fna&_nc_gid=HGutkzgNIR9kJ1-NLXrzrw&oh=00_AfIDUJnYNKyNKnGu_m3lj_2j3DjdoZUCuQX2WL6LV8J_OA&oe=683D4995');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -194,7 +194,9 @@ form {
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
+
 
 .form-group {
     margin-bottom: 1.5em;
@@ -213,6 +215,21 @@ form input, form textarea {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(255, 123, 99, 0.1);
 }
+
+/* NEW FIELDS (select, date, time, tel) */
+form select,
+form input[type="date"],
+form input[type="time"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(255, 123, 99, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 form button {
     width: 100%;
@@ -286,4 +303,5 @@ form button:hover {
 
 /* Animations */
 @keyframes
+
 
